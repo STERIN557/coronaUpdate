@@ -1,0 +1,90 @@
+html{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+header img{
+    display: block;
+    position: relative;
+    height: 7rem;
+    
+
+
+}
+header{
+    background-color:rgba(0, 200, 250, 0.315);
+}
+
+.toplist{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top:2rem;
+    background-color: rgb(255, 255, 255);
+    height: 2rem;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.137);
+  
+}
+
+.div1 ,.div2{
+    display: block;
+    position: relative;
+    top:7px;
+    cursor: pointer;
+    color: rgb(104, 107, 121);
+}
+
+main{
+    display: flex;
+    position: relative;
+    height: 100%;
+    min-height: 10rem;
+    width:100%;
+
+    top:4rem;
+    flex-direction: column;
+}
+
+.informations{
+ display: block;
+ position: relative;
+ background-color: #fff;
+ box-shadow: 0px 0px 10px 2px rgba(32, 31, 39, 0.247);
+ width: 80%;
+ height: fit-content;
+ padding-left: 4rem;
+ border-radius: 7px;
+margin-top:1rem;
+margin-bottom: 1rem;
+}
+#country{
+    color: dodgerblue;
+}
+#NconfirmCa{
+    color: brown;
+}
+
+#tconfirmD{
+    color: darkorchid;
+}
+
+#Ntdeath{
+    color:red;
+}
+#tdeath{
+  
+    color: rgb(255, 145, 0);
+}
+#nrecovered{
+    color: greenyellow;
+}
+
+#trecovered{
+    color: green;
+}
+#dates{
+    color: brown;
+}
