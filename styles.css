@@ -18,7 +18,7 @@ header img{
 
 }
 header{
-    background-color:rgba(0, 200, 250, 0.315);
+    background-color:rgb(255, 4, 4);
 }
 
 .toplist{
@@ -140,6 +140,9 @@ padding-right: 3rem;
     overflow-x: hidden;
     overflow-y: visible;
 
+}
+#district{
+ color:rgb(255, 4, 4);  
 }
 
 @media (min-width:700px)
